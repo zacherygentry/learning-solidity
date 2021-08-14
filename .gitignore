@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/node,solidity
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,solidity
+# Created by https://www.toptal.com/developers/gitignore/api/react,node,solidity
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,node,solidity
 
 ### Node ###
 # Logs
@@ -122,6 +122,19 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### Solidity ###
 # Logs
 
@@ -188,4 +201,4 @@ dist
 
 # yarn v2
 
-# End of https://www.toptal.com/developers/gitignore/api/node,solidity
+# End of https://www.toptal.com/developers/gitignore/api/react,node,solidity
