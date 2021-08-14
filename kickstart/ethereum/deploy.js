@@ -3,10 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  'vibrant normal clarify fence utility curtain helmet unit life agree response buzz',
-  // remember to change this to your own phrase!
+  'vibrant normal clarify fence utility curtain helmet unit life agree response buzz', // Throwaway wallet since it's public
   'https://rinkeby.infura.io/v3/a9acef6052ae4ac6b98052751a48da9e'
-  // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
 
